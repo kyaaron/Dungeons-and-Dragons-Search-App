@@ -1,2 +1,2 @@
-# Dungeons-and-Dragons-Search-App
-A DnD 5e search app utilizing the DnD 5e API
+# Dungeons and Dragons Search App
+An app to search spells from Dungeons and Dragons 5e. This app integrates the DnD5e API for spell search.
