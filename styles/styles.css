@@ -52,18 +52,22 @@ h2 {
     margin: 10px 0 10px 0;
 }
 
-input, button, p {
+input, button, p, select {
     font-size: 1.3rem;
     font-family: "Playfair Display", serif;
 }
 
-input, button {
+input, button, select {
     height: 40px;
     padding: 0 10px;
 }
 
 input {
     width: 280px;
+    margin-bottom: 20px;
+}
+
+select {
     margin-bottom: 20px;
 }
 
@@ -89,6 +93,9 @@ button {
     }
     input {
         width: 450px;
+        margin: 0 10px 0 0;
+    }
+    select {
         margin: 0 10px 0 0;
     }
 }

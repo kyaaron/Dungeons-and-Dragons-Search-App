@@ -15,9 +15,14 @@
     <title>DnD Spell App</title>
 </head>
 <body>
-    <h1>Dungeons and Dragons Spell App</h1>
+    <h1>Dungeons and Dragons Search App</h1>
     <div class="content-div">
         <section class="search-container">
+            <select name="query-type" id="query-type">
+                <option value="">--select an option--</option>
+                <option value="spells">Spells</option>
+                <option value="monsters">Monsters</option>
+            </select>
             <input type="text" placeholder="Search spell here..."/>
             <button>Search</button>
         </section>
